@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ListViewTipsAndTricks</string>
+    
+    <string name="no_cheese">There is no cheese!</string>
+    
+    <string name="set_empty">Set empty</string>
+    <string name="set_data">Set data</string>
+</resources>
