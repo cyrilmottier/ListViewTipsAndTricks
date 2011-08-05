@@ -17,11 +17,13 @@
 */
 -->
 
-<TextView
+<shape
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:textAppearance="?android:attr/textAppearanceLarge"
-    android:gravity="center_vertical"
-    android:paddingLeft="6dip"
-    android:minHeight="?android:attr/listPreferredItemHeight" />
+    android:shape="rectangle">
+
+    <gradient
+        android:startColor="#f5c98c"
+        android:endColor="#f7ddb8"
+        android:angle="90" />
+
+</shape>

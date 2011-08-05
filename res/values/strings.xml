@@ -18,10 +18,15 @@
 -->
 
 <resources>
+
     <string name="app_name">ListViewTipsAndTricks</string>
     
     <string name="no_cheese">There is no cheese!</string>
     
     <string name="set_empty">Set empty</string>
     <string name="set_data">Set data</string>
+    
+    <string name="draw_selector_on_top">Draw selector on top</string>
+    <string name="use_selector_as_background">Use selector as background</string>
+    
 </resources>

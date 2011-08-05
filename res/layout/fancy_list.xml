@@ -23,24 +23,14 @@
     android:layout_height="fill_parent"
     android:orientation="vertical">
 
-    <FrameLayout
+    <ListView
+        android:id="@android:id/list"
         android:layout_width="fill_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
-
-        <ListView
-            android:id="@android:id/list"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent" />
-
-        <ViewStub
-            android:id="@android:id/empty"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout="@layout/empty" />
-
-    </FrameLayout>
+        android:layout_weight="1"
+        android:fadingEdgeLength="0px"
+        android:divider="#efefef"
+        android:dividerHeight="1px" />
 
     <LinearLayout
         style="@android:style/ButtonBar"
@@ -50,17 +40,19 @@
 
         <Button
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:text="@string/set_empty"
-            android:onClick="onSetEmpty" />
+            android:layout_gravity="center_vertical"
+            android:text="@string/draw_selector_on_top"
+            android:onClick="onDrawSelectorOnTop" />
 
         <Button
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:text="@string/set_data"
-            android:onClick="onSetData" />
+            android:layout_gravity="center_vertical"
+            android:text="@string/use_selector_as_background"
+            android:onClick="onUseSelectorAsBackground" />
 
     </LinearLayout>
 
