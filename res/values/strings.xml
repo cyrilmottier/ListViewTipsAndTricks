@@ -29,4 +29,8 @@
     <string name="draw_selector_on_top">Draw selector on top</string>
     <string name="use_selector_as_background">Use selector as background</string>
     
+    <string name="you_want_to_buy_format">You want to buy %1$s</string>
+    <string name="you_want_info_about_format">You want information about %1$s</string>
+    <string name="buy_it">Buy it!</string>
+    
 </resources>

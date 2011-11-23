@@ -58,6 +58,13 @@
                 <category android:name="com.cyrilmottier.android.listviewtipsandtricks.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+        
+        <activity android:name=".AccessoriesListActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.cyrilmottier.android.listviewtipsandtricks.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
 
 	</application>
 </manifest>
