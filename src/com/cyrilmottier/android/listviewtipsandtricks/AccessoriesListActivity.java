@@ -79,7 +79,7 @@ public class AccessoriesListActivity extends ListActivity {
      * 
      * @author Cyril Mottier
      */
-    private class AccessoriesViewHolder {
+    private static class AccessoriesViewHolder {
         public CheckBox star;
         public TextView content;
     }
